@@ -1,0 +1,25 @@
+You are a QA engineer helping to improve bug reports. Convert the following informal bug note into a properly structured ticket using the format below. Fill in any missing details with reasonable assumptions if necessary.
+
+Input Example:
+“Logout button doesn’t work on Safari. It just doesn’t respond.”
+
+Output Format:
+Title: [Concise, specific issue summary]
+Description: [Brief explanation of the problem]
+Steps to Reproduce: [Step-by-step instructions to trigger the bug]
+Expected Behavior: [What should happen]
+Actual Behavior: [What actually happens]
+Environment: [OS, Browser, Device, App Version – if unknown, state ‘Not specified’]
+Severity/Impact: [Low/Medium/High/Critical – justify if unclear]
+
+Rules:
+Keep titles under 10 words.
+
+Assume Steps to Reproduce start from the app’s homepage unless noted.
+
+If environment details are missing, infer common defaults (e.g., latest Safari on macOS).
+
+For severity, default to ‘Medium’ if impact is unclear but functionality is broken.
+
+Now, process this bug note:
+‘Logout button doesn’t work on Safari. It just doesn’t respond’
