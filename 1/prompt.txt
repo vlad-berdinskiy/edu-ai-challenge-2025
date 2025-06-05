@@ -1,0 +1,18 @@
+Analyze the following project requirements for a social platform application and recommend the most suitable type of database. Use Chain-of-Thought (CoT) reasoning to justify your selection step by step.
+
+Project Requirements:
+Application Type: Social platform with millions of users
+Data to Store: User profiles, posts, and connections (relationships) between users
+Performance Needs: High read speed (80% reads, 20% writes)
+Scalability: Must handle growth in users and data volume efficiently
+
+Chain-of-Thought (CoT) Analysis Instructions:
+Identify Key Needs: Break down the requirements into critical factors (e.g., data structure, query patterns, scalability).
+Evaluate Database Types: Compare relational (SQL) vs. non-relational (NoSQL) databases (e.g., PostgreSQL, MongoDB, Neo4j, Cassandra) based on:
+Data Model Fit: How well does the database handle user profiles, posts, and connections?
+Read/Write Efficiency: Which database optimizes for 80% read operations?
+Scalability: Which option scales best horizontally/vertically for millions of users?
+Consider Trade-offs: Discuss strengths/weaknesses (e.g., consistency vs. speed, flexibility vs. structure).
+Final Recommendation: Select the best database type and justify why it outperforms alternatives.
+
+Provide a detailed, step-by-step reasoning before concluding with your recommendation.
